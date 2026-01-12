@@ -1,0 +1,19 @@
+#include<iostream>
+
+using namespace  std;
+
+int main(){
+    long long t;
+    cin >> t;
+    while(t--){
+        long long N , K;
+        cin >> N;
+        cin >> K;
+        if( N%2 == 0 || (N-K)%2 == 0){
+            cout << "YES" << endl;
+        }else{
+            cout << "NO" << endl;
+        }
+    } 
+
+}
